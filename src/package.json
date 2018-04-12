@@ -1,0 +1,24 @@
+{
+  "name": "minesweeper_trans",
+  "version": "1.0.0",
+  "description": "To transpilate my minesweeper project to be more compatible from change ES6 to ES5",
+  "main": "board.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shoothaha/Minesweeper.git"
+  },
+  "author": "J-M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shoothaha/Minesweeper/issues"
+  },
+  "homepage": "https://github.com/shoothaha/Minesweeper#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}

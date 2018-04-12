@@ -3,19 +3,82 @@
 	{
 		"selected_items":
 		[
+			[
+				"pl",
+				"playerBoard"
+			],
+			[
+				"numb",
+				"numberOfBombs"
+			],
+			[
+				"num",
+				"numberOfBombs"
+			],
+			[
+				"_",
+				"_numberOfBombs"
+			],
+			[
+				"gene",
+				"generateBombBoard"
+			],
+			[
+				"number",
+				"numberOfRows"
+			],
+			[
+				"pick",
+				"pickSubstituteTeacher"
+			],
+			[
+				"lo",
+				"lorraineHansbury"
+			],
+			[
+				"con",
+				"constructor"
+			],
+			[
+				"fli",
+				"flipTile"
+			],
+			[
+				"nei",
+				"neighborColumnIndex"
+			],
+			[
+				"row",
+				"rowIndex"
+			],
+			[
+				"neigh",
+				"neighborColumnIndex"
+			],
+			[
+				"numberOf",
+				"numberOfBombs"
+			],
+			[
+				"ran",
+				"randomColumnIndex"
+			],
+			[
+				"generate",
+				"generateBombBoard"
+			],
+			[
+				"nuberOf",
+				"numberOfColumns"
+			],
+			[
+				"pr",
+				"printBoard"
+			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "minesweeper.js",
-			"settings":
-			{
-				"buffer_size": 537,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -24,10 +87,22 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 263.0,
-		"last_filter": "install",
+		"height": 368.0,
+		"last_filter": "mar",
 		"selected_items":
 		[
+			[
+				"mar",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -62,7 +137,23 @@
 	},
 	"file_history":
 	[
+		"/D/Program Files/Project/MineSweeper/src/board.js",
+		"/D/Program Files/Project/MineSweeper/src/game.js",
+		"/C/Users/User/AppData/Local/Temp/Rar$DRa0.811/MineSweeper_6/src/board.js",
+		"/C/Users/User/AppData/Local/Temp/Rar$DRa0.735/MineSweeper_6/src/game.js",
+		"/D/Program Files/Project/MineSweeper/src/.babelrc",
+		"/D/Program Files/Project/MineSweeper/src/package.json",
+		"/D/Program Files/Project/MineSweeper/.git/config",
 		"/D/Program Files/Project/MineSweeper/src/minesweeper.js",
+		"/C/Users/User/AppData/Local/Temp/Rar$DRa0.043/MineSweeper_5/src/minesweeper.js",
+		"/C/Users/User/AppData/Local/Temp/Rar$DRa0.440/MineSweeper_5/src/minesweeper.js",
+		"/D/Program Files/Project/MineSweeper/src/codeA_Objective_project_School_Catalogue.js",
+		"/D/Program Files/Project/MineSweeper/src/codeA_Objective_project_Build_a_Library.js",
+		"/D/Program Files/Project/MineSweeper/src/codeA_Objective_project_meal_maker.js",
+		"/D/Program Files/Project/MineSweeper/src/codeA_Objective_project_team_stats.js",
+		"/C/Users/User/AppData/Local/Temp/Rar$DRa0.504/MineSweeper_4/src/minesweeper.js",
+		"/D/Program Files/Project/MineSweeper/src/readme.md",
+		"/C/Users/User/Desktop/MD_test.md",
 		"/D/Program Files/Project/HelloWorld/index.html"
 	],
 	"find":
@@ -71,7 +162,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 160.0,
 		"where_history":
 		[
 		]
@@ -98,186 +189,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "minesweeper.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 537,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								172,
-								172
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"is_init_dirty_state": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
